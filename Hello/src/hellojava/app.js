@@ -29,6 +29,27 @@ const player = {
  }
  console.log(player); //console. ==>object에서 얻어오는 것
  console.log(player.name);
-player.lastName = "potato"; //property 추가 가능
+ player.lastName = "potato"; //property 추가 가능
  player.fat = false;        //이전에 const 변경못한다고 했었는데, const내에 업데이트는 가능
  console.log(player.fat);
+
+ //function : 반복해서 사용할 수 있는 코드조각
+ //argument :  function을 실행하는 동안 정보를 function에게 보낼 수 있는 방법
+ function plus(a,b){
+    console.log(a+b);
+ }
+ function divide(a,b){
+    console.log(a / b);
+ }
+ plus(60,8);
+ divide(98,20);
+
+ const players= {
+    name :"nico",
+    sayHello: function(otherPersonName){
+        console.log("hello"+otherPersonName + "nice to meet you");
+    }
+ };
+ console.log(players.name);
+ players.sayHello("lynn");
+ //=====================================2022.11.23
