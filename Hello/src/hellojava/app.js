@@ -128,5 +128,27 @@ console.log(typeof age1); */
 //parseInt : String -> number로 변환, 숫자가 아닌게 입력되면 변환이 안됨. NaN(not a number)
 console.log(typeof "15", typeof parseInt("15"));    //string, number
 
-
 //isNaN : (not a number)-T/F
+// =================================11.23
+
+if(isNaN(age)){
+    console.log("Please write a number");
+} else{
+    console.log("Thank you for writing your age");
+}
+
+if(isNaN(age)){
+    console.log("Please write a number");
+} else if(age<18){              //else if 들이 false여야 else 실행
+    console.log("You are too young");
+} else if( age >= 18 && age <= 50){    // && : and, || :or
+    console.log("You can drink");   
+} else if(age > 50 && age <= 80){
+    console.log("You should exercise");
+} else if(age >80){
+    confirm.log("You can do whatever you want")
+} else{               //else는 선택사항
+    console.log("You can drink");
+}
+
+
