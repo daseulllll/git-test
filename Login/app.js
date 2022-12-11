@@ -31,7 +31,8 @@ function handleLinkClick(event){
     console.dir(event);
     alert("clicked");
 }
-link.addEventListener("click",handleLinkClick);
+// link.addEventListener("click",handleLinkClick);
+
    /*  console.log(loginInput.value);
     console.log("click!!");
     const username = loginInput.value;
