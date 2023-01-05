@@ -3,7 +3,7 @@
 
 > **원격 저장소 연결 및 끊기** <br>
   `연결 git remote add <name> <url> ` <br>
-  `끊기 git remote remove name `
+  `끊기 git remote remove <name> `
 <br>
 
 > **브랜치 삭제 및 생성** <br>
