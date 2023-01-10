@@ -19,3 +19,12 @@
 >> 원격저장소 파일만 삭제<br>
 `삭제할파일 git rm --cached ` <br>
  _**=>커밋, 푸시해줘야 적용됨!!!!**_
+
+ <br>
+  ✅  🐣git에 대해 알게 된 추가지식🐣 <br>
+
+
+   1. commit&push를 했음에도 잔디 심겨지지 않아요‼ <br>
+       
+       1. git email != local email   <br>
+       2. Master branch에서 작업하지 않은 경우나 현재 branch가 default가 아닐 때!    <br>
