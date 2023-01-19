@@ -28,3 +28,12 @@
        
        1. git email != local email   <br>
        2. Master branch에서 작업하지 않은 경우나 현재 branch가 default가 아닐 때!    <br>
+
+
+   2. .gitignore =>상단위치할 것!<br>
+      #나만의 gitignore!  <br>
+    .cache/  <br>
+    dist/  <br>
+    node_modules/  <br>
+    package-lock.json  <br>
+    일단 이것만,,! 폴더색깔 회색됨!ㅎ    
