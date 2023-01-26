@@ -37,3 +37,9 @@
     node_modules/  <br>
     package-lock.json  <br>
     일단 이것만,,! 폴더색깔 회색됨!ㅎ    
+    
+    3. git checkout할 때 <br>
+    The following untracked working tree files would be overwritten by checkout: <br>
+    error: 파일 이름. <br>
+    Please move or remove them before you switch branches. 메세지 뜰 때!
+    
