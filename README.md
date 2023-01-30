@@ -21,6 +21,13 @@
  _**=>커밋, 푸시해줘야 적용됨!!!!**_
 
  <br>
+ 
+ > **commit 취소(add o, commit -m o, push x)** <br>
+ `git reset HEAD^`<br>
+ `한 단계 앞 ^ // 두 단계 앞 ^^ ==> git log 확인!`
+ 
+ 
+ 
   ✅  🐣 **git에 대해 알게 된 추가지식** 🐣 <br>
 
 
@@ -36,6 +43,8 @@
     dist/  <br>
     node_modules/  <br>
     package-lock.json  <br>
+    .parcel-cache/ <br>
+    .parcel-cache/lock.mdb <br>
     일단 이것만,,! 폴더색깔 회색됨!ㅎ    
     
     3. git checkout할 때 <br>
