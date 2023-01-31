@@ -47,8 +47,11 @@
     .parcel-cache/lock.mdb <br>
     일단 이것만,,! 폴더색깔 회색됨!ㅎ    
     
-    3. git checkout할 때 <br>
+   3. git checkout할 때 <br>
     The following untracked working tree files would be overwritten by checkout: <br>
     error: 파일 이름. <br>
-    Please move or remove them before you switch branches. 메세지 뜰 때!
+    Please move or remove them before you switch branches. 메세지 뜰 때!<br>
+    **해결 방법 =>untracked file들을 모두 제거**<br>
+    `git clean -d -f -f` <br>
+    작업중인 파일이 Stash하지 않은 경우 사라질 수 있으므로 git stash를 확인하여 작업 중인 파일이 있는지 확인 후 사용하기!
     
