@@ -35,6 +35,7 @@
        
        1. git email != local email   <br>
        2. Master branch에서 작업하지 않은 경우나 현재 branch가 default가 아닐 때!    <br>
+       ==> merge하는 경우 다시 잔디 심어짐!
 
 
    2. .gitignore =>상단위치할 것!<br>
