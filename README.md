@@ -33,8 +33,14 @@
  `git subtree add --prefix=폴더이름 (합쳐짐을 당할)repo주소 (합쳐짐 당하는 repo의 default branch)main or master` <br>
  ==><br>
  `git push (합침을 할 repo, cmd에 저장한대로)이름 branch`<br>
- 그리곤 합쳐진 repo는 삭제하면 됨!
+ 그리곤 합쳐진 repo는 삭제하면 됨!<br>
  
+ <br>
+ 
+ > **내용 빈 것 커밋방법** <br>
+  `git commit --allow-empty -m "메세지 내용"`
+ 
+ <br>
  
   ✅  🐣 **git에 대해 알게 된 추가지식** 🐣 <br>
 
