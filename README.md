@@ -1,5 +1,18 @@
 # Git Study
 ****
+ <br>
+ 
+> **git 사용자 정보확인** <br>
+  `git config --list` <br>
+  user.name="아이디" / user.email="이메일" <br>
+  >> **사용자 계정정보 변경** <br>
+  `git config --global user.name "사용자명,아이디"`  <br>
+  `git config --global user.email "이메일주소"`  <br>
+  >>**사용자 계정정보 삭제** <br>
+  `git config --unset user.name` <br>
+  `git config --unset user.email`
+  
+<br>
 
 > **원격 저장소 연결 및 끊기** <br>
   `연결 git remote add <name> <url> ` <br>
